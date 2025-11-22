@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/master.swiftdeps"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AppDelegate.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AppDelegate.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AppDelegate.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AppDelegate.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AuthStatus.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AuthStatus.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AuthStatus.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AuthStatus~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AuthStatus.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/AuthStatus.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ConfigManager.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ConfigManager.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ConfigManager.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ConfigManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ConfigManager.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ConfigManager.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/IconCatalog.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/IconCatalog.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/IconCatalog.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/IconCatalog~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/IconCatalog.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/IconCatalog.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ServerManager.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ServerManager.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ServerManager.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ServerManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ServerManager.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/ServerManager.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/SettingsView.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/SettingsView.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/SettingsView.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/TunnelManager.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/TunnelManager.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/TunnelManager.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/TunnelManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/TunnelManager.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/TunnelManager.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/UniversalRouter.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/UniversalRouter.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/UniversalRouter.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/UniversalRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/UniversalRouter.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/UniversalRouter.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/main.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/main.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/main.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/main.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/main.dia"
+  },
+  "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/resource_bundle_accessor.d",
+    "object": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/debug/FlowRouter.build/resource_bundle_accessor.dia"
+  }
+}
