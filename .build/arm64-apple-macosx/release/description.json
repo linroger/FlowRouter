@@ -1,0 +1,573 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/AppIcon.icns" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/AppIcon.icns"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/AppIcon.icns"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/cli-proxy-api" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/cli-proxy-api"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/cli-proxy-api"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/config.yaml" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/config.yaml"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/config.yaml"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/glyph.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/glyph.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/glyph.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-active.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-active.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-active.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-antigravity.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-antigravity.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-antigravity.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-claude.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-claude.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-claude.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-codex.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-codex.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-codex.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-gemini.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-gemini.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-gemini.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-inactive.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-inactive.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-inactive.png"
+        }
+      ]
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-qwen.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/Resources/icon-qwen.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter_FlowRouter.bundle/icon-qwen.png"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.FlowRouter-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/sources",
+      "importPath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AuthStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ConfigManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/IconCatalog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ServerManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/TunnelManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/UniversalRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<FlowRouter-arm64-apple-macosx26.0-release.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "FlowRouter",
+      "moduleOutputPath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/Modules/FlowRouter.swiftmodule",
+      "objects" : [
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AppDelegate.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AuthStatus.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ConfigManager.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/IconCatalog.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ServerManager.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/SettingsView.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/TunnelManager.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/UniversalRouter.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/main.swift.o",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "16",
+        "-serialize-diagnostics",
+        "-O",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "FlowRouter_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "flowrouter"
+      ],
+      "outputFileMapPath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AuthStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ConfigManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/IconCatalog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ServerManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/TunnelManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/UniversalRouter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/Modules/FlowRouter.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AppDelegate.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AuthStatus.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ConfigManager.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/IconCatalog.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ServerManager.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/SettingsView.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/TunnelManager.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/UniversalRouter.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/main.swift",
+        "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "FlowRouter" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "FlowRouter",
+      "-package-name",
+      "flowrouter",
+      "-c",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AppDelegate.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AuthStatus.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ConfigManager.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/IconCatalog.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ServerManager.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/SettingsView.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/TunnelManager.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/UniversalRouter.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/main.swift",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "16",
+      "-serialize-diagnostics",
+      "-O",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "FlowRouter_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "flowrouter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "FlowRouter" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/AuthStatus.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ConfigManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/IconCatalog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/ServerManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/TunnelManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/UniversalRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/Sources/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/sources"
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/AuthStatus.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ConfigManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/IconCatalog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/ServerManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/TunnelManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/UniversalRouter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/FlowRouter.product/Objects.LinkFileList"
+    },
+    "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/rogerlin/Downloads/FlowRouter/FlowRouter/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -85,10 +85,14 @@ class ConfigManager: ObservableObject {
 class ModelRegistry {
     static let shared = ModelRegistry()
     private var modelMap: [String: ProviderType] = [:]
+    private(set) var registeredModels: [String] = []
     
     func register(models: [String], for provider: ProviderType) {
         for model in models {
             modelMap[model] = provider
+            if !registeredModels.contains(model) {
+                registeredModels.append(model)
+            }
         }
     }
     

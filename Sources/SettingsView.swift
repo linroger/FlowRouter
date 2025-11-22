@@ -94,162 +94,159 @@ struct SettingsView: View {
     
     // MARK: - General Tab
     var generalSettings: some View {
-        VStack(alignment: .leading, spacing: 24) {
-            GroupBox(label: Text("Server Status")) {
+        Form {
+            Section(header: Text("Server Status")) {
                 HStack {
-                    Circle()
-                        .fill(serverManager.isRunning ? Color.green : Color.red)
-                        .frame(width: 10, height: 10)
+                    Image(systemName: serverManager.isRunning ? "network" : "network.slash")
+                        .foregroundColor(serverManager.isRunning ? .green : .red)
                     
                     Text(serverManager.isRunning ? "Running" : "Stopped")
                         .font(.headline)
                     
                     Spacer()
                     
-                    Button(serverManager.isRunning ? "Stop Server" : "Start Server") {
+                    Button(serverManager.isRunning ? "Stop" : "Start") {
                         if serverManager.isRunning {
                             serverManager.stop()
                         } else {
-                            serverManager.start { _ in } 
+                            serverManager.start { _ in }
                         }
                     }
                 }
-                .padding()
             }
             
-            GroupBox(label: Text("Configuration")) {
-                VStack(alignment: .leading, spacing: 12) {
-                    HStack {
-                        Text("Universal Port:")
-                        Spacer()
-                        Text("8327")
-                            .font(.system(.body, design: .monospaced))
-                            .padding(4)
-                            .background(Color.gray.opacity(0.1))
-                            .cornerRadius(4)
-                    }
-                    
-                    HStack {
-                        Text("Managed Port:")
-                        Spacer()
-                        Text("8328")
-                            .font(.system(.body, design: .monospaced))
-                            .padding(4)
-                            .background(Color.gray.opacity(0.1))
-                            .cornerRadius(4)
-                    }
-                    
-                    Toggle("Launch at login", isOn: $launchAtLogin)
-                        .onChange(of: launchAtLogin) {
-                            toggleLaunchAtLogin($0)
-                        }
+            Section(header: Text("Configuration")) {
+                HStack {
+                    Label("Universal Port", systemImage: "arrow.triangle.branch")
+                    Spacer()
+                    Text("3827")
+                        .font(.monospacedDigit(.body)())
+                        .foregroundColor(.secondary)
                 }
-                .padding()
+                
+                HStack {
+                    Label("Managed Port", systemImage: "server.rack")
+                    Spacer()
+                    Text("3828")
+                        .font(.monospacedDigit(.body)())
+                        .foregroundColor(.secondary)
+                }
+                
+                Toggle("Launch at login", isOn: $launchAtLogin)
+                    .onChange(of: launchAtLogin) { newValue in
+                        toggleLaunchAtLogin(newValue)
+                    }
             }
             
-            GroupBox(label: Text("Logs")) {
+            Section(header: Text("Logs")) {
                 ScrollView {
                     Text(serverManager.getLogs().joined(separator: "\n"))
                         .font(.caption.monospaced())
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .frame(height: 150)
-                .padding(4)
             }
         }
+        .formStyle(.grouped)
     }
     
     // MARK: - Managed Services Tab
     var managedServices: some View {
-        VStack(spacing: 12) {
-            Text("Managed services run locally via cli-proxy-api.")
-                .font(.caption)
-                .foregroundColor(.secondary)
-                .frame(maxWidth: .infinity, alignment: .leading)
-            
-            ManagedServiceRow(
-                name: "Antigravity",
-                icon: "icon-antigravity",
-                status: authManager.antigravityStatus,
-                isAuthenticating: isAuthenticatingAntigravity,
-                onConnect: { connectAntigravity() },
-                onDisconnect: { disconnectAntigravity() }
-            )
-            
-            ManagedServiceRow(
-                name: "Claude Code",
-                icon: "icon-claude",
-                status: authManager.claudeStatus,
-                isAuthenticating: isAuthenticatingClaude,
-                onConnect: { connectClaudeCode() },
-                onDisconnect: { disconnectClaudeCode() }
-            )
-            
-            ManagedServiceRow(
-                name: "Gemini",
-                icon: "icon-gemini",
-                status: authManager.geminiStatus,
-                isAuthenticating: isAuthenticatingGemini,
-                onConnect: { connectGemini() },
-                onDisconnect: { disconnectGemini() }
-            )
-            
-            ManagedServiceRow(
-                name: "Codex",
-                icon: "icon-codex",
-                status: authManager.codexStatus,
-                isAuthenticating: isAuthenticatingCodex,
-                onConnect: { connectCodex() },
-                onDisconnect: { disconnectCodex() }
-            )
-            
-            ManagedServiceRow(
-                name: "Qwen",
-                icon: "icon-qwen",
-                status: authManager.qwenStatus,
-                isAuthenticating: isAuthenticatingQwen,
-                onConnect: { connectQwen() },
-                onDisconnect: { disconnectQwen() }
-            )
-            
-            ManagedServiceRow(
-                name: "iFlow",
-                icon: "icon-antigravity", // Placeholder or generic
-                status: authManager.iflowStatus,
-                isAuthenticating: isAuthenticatingIFlow,
-                onConnect: { connectIFlow() },
-                onDisconnect: { disconnectIFlow() }
-            )
+        Form {
+            Section(header: Text("Managed Services"), footer: Text("Managed services run locally via cli-proxy-api.")) {
+                ManagedServiceRow(
+                    name: "Antigravity",
+                    icon: "icon-antigravity",
+                    status: authManager.antigravityStatus,
+                    isAuthenticating: isAuthenticatingAntigravity,
+                    onConnect: { connectAntigravity() },
+                    onDisconnect: { disconnectAntigravity() }
+                )
+                
+                ManagedServiceRow(
+                    name: "Claude Code",
+                    icon: "icon-claude",
+                    status: authManager.claudeStatus,
+                    isAuthenticating: isAuthenticatingClaude,
+                    onConnect: { connectClaudeCode() },
+                    onDisconnect: { disconnectClaudeCode() }
+                )
+                
+                ManagedServiceRow(
+                    name: "Gemini",
+                    icon: "icon-gemini",
+                    status: authManager.geminiStatus,
+                    isAuthenticating: isAuthenticatingGemini,
+                    onConnect: { connectGemini() },
+                    onDisconnect: { disconnectGemini() }
+                )
+                
+                ManagedServiceRow(
+                    name: "Codex",
+                    icon: "icon-codex",
+                    status: authManager.codexStatus,
+                    isAuthenticating: isAuthenticatingCodex,
+                    onConnect: { connectCodex() },
+                    onDisconnect: { disconnectCodex() }
+                )
+                
+                ManagedServiceRow(
+                    name: "Qwen",
+                    icon: "icon-qwen",
+                    status: authManager.qwenStatus,
+                    isAuthenticating: isAuthenticatingQwen,
+                    onConnect: { connectQwen() },
+                    onDisconnect: { disconnectQwen() }
+                )
+                
+                ManagedServiceRow(
+                    name: "iFlow",
+                    icon: "icon-antigravity", // Placeholder or generic
+                    status: authManager.iflowStatus,
+                    isAuthenticating: isAuthenticatingIFlow,
+                    onConnect: { connectIFlow() },
+                    onDisconnect: { disconnectIFlow() }
+                )
+            }
         }
+        .formStyle(.grouped)
     }
     
     // MARK: - External Services Tab
     var externalServices: some View {
-        VStack(spacing: 12) {
-            Text("External services are proxied directly via API Key.")
-                .font(.caption)
-                .foregroundColor(.secondary)
-                .frame(maxWidth: .infinity, alignment: .leading)
-            
-            ForEach($configManager.providers) { $provider in
-                ExternalProviderRow(provider: $provider)
+        Form {
+            Section(header: Text("External Providers"), footer: Text("External services are proxied directly via API Key.")) {
+                ForEach($configManager.providers) { $provider in
+                    ExternalProviderRow(provider: $provider)
+                }
             }
         }
+        .formStyle(.grouped)
     }
     
     // MARK: - Models Tab
     var modelsList: some View {
-        VStack {
-            Button("Refresh Models") {
-                Task {
-                    await ModelRegistry.shared.fetchModels()
+        Form {
+            Section(header: Text("Available Models")) {
+                Button(action: {
+                    Task {
+                        await ModelRegistry.shared.fetchModels()
+                    }
+                }) {
+                    HStack {
+                        Image(systemName: "arrow.clockwise")
+                        Text("Refresh Models")
+                    }
                 }
+                
+                List(ModelRegistry.shared.registeredModels, id: \.self) { model in
+                    Text(model)
+                        .font(.monospaced(.body)())
+                }
+                .frame(minHeight: 200)
             }
-            // A simple list placeholder for now
-            Text("Model list will appear here after fetch.")
-                .foregroundColor(.secondary)
-                .padding()
         }
+        .formStyle(.grouped)
     }
     
     // MARK: - Qwen Prompt

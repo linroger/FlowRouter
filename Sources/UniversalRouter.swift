@@ -3,9 +3,9 @@ import Network
 import Combine
 
 class UniversalRouter {
-    private var listener: NWListener? 
-    let proxyPort: UInt16 = 8327
-    private let managedPort: UInt16 = 8328
+    private var listener: NWListener?
+    let proxyPort: UInt16 = 3827
+    private let managedPort: UInt16 = 3828
     private let managedHost = "127.0.0.1"
     private(set) var isRunning = false
     
@@ -246,10 +246,11 @@ class UniversalRouter {
             allModels.append(contentsOf: managedModels)
             
             // external
-            // Re-fetch or use cached? Let's just list what we know from registry for now,
-            // or trigger a quick fetch?
-            // For this implementation, we will just return the managed ones + dummy externals if fetch isn't done
-            // Real implementation would wait for `ModelRegistry.shared.fetchModels()` results
+            let externalModels = ModelRegistry.shared.registeredModels.map { id in
+                ["id": id, "object": "model", "created": 0, "owned_by": "external"]
+            }
+            
+            allModels.append(contentsOf: externalModels)
             
             // Let's construct the response
             let response: [String: Any] = [
